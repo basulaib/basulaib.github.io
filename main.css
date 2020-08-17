@@ -107,3 +107,7 @@
         .btn:hover {
             background: black;
         }
+        
+        .card {
+            border: 0px;
+        }
