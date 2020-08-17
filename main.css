@@ -1,0 +1,109 @@
+        /* Move down content because we have a fixed navbar that is 3.5rem tall */
+        
+        .nav {
+            text-align: center;
+        }
+        
+        .navbar-nav .nav-item {
+            float: inherit;
+            display: inline-block;
+        }
+        
+        main {
+            background-color: #343a40 !important;
+            color: white;
+            height: 100%;
+        }
+        
+        .jumbotron>.container {
+            display: flex;
+            /* justify-content: left;
+            align-items: left; */
+            margin: 50px;
+        }
+        
+        .bd-placeholder-img {
+            align-items: left;
+            top: -2.5em;
+        }
+        
+        .footer {
+            background-color: #272c30;
+            color: white;
+            text-align: center;
+            margin: 0 0 0 0;
+        }
+        
+        .footer p {
+            margin-bottom: 0;
+        }
+        
+        .nav-link>.nav-text {
+            position: relative;
+            bottom: 5px;
+        }
+        
+        .bio-header,
+        .bio-location,
+        .bio-text {
+            position: relative;
+            top: 100px;
+            margin-left: 200px;
+            text-align: left;
+        }
+        
+        .bio-text {
+            font-size: 22px;
+        }
+        
+        @media (min-width: 2560px) {
+            .bio-header,
+            .bio-location,
+            .bio-text {
+                position: relative;
+                top: 100px;
+                left: 400px;
+                text-align: left;
+                margin: 0px;
+            }
+            .bd-placeholder-img {
+                left: 300px;
+            }
+            .footer {
+                background-color: #272c30;
+                color: white;
+                text-align: center;
+                bottom: 0px;
+                overflow: hidden;
+            }
+            /**
+            .skills-header {
+                right: 600px;
+            }
+            .skills-container {
+                left: 400px;
+            }**/
+        }
+        
+        .skills-header {
+            bottom: 0px;
+        }
+        
+        .skills-header-text {
+            font-size: 80px;
+            margin-left: 200px;
+        }
+        
+        .skills-container {
+            right: 0px;
+        }
+        
+        .projects-header {
+            margin: auto;
+            padding: auto;
+            font-size: 80px;
+        }
+        
+        .btn:hover {
+            background: black;
+        }
