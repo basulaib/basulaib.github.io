@@ -14,18 +14,16 @@
             color: white;
             height: 100%;
         }
-        
+        /**
         .jumbotron>.container {
             display: flex;
-            /* justify-content: left;
-            align-items: left; */
+            justify-content: left;
+            align-items: left; 
             margin: 50px;
         }
+        **/
         
-        .bd-placeholder-img {
-            align-items: left;
-            top: -2.5em;
-        }
+        .bd-placeholder-img {}
         
         .footer {
             background-color: #272c30;
@@ -62,12 +60,7 @@
             .bio-text {
                 position: relative;
                 top: 100px;
-                left: 400px;
                 text-align: left;
-                margin: 0px;
-            }
-            .bd-placeholder-img {
-                left: 300px;
             }
             .footer {
                 background-color: #272c30;
@@ -105,7 +98,7 @@
         }
         
         .btn:hover {
-            background: black;
+            background: grey;
         }
         
         .card {
