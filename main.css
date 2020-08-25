@@ -65,6 +65,7 @@
             }
             .bio-text {
                 font-size: 18px;
+                letter-spacing: -0.4px;
             }
             .bio-header,
             .bio-location,
