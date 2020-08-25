@@ -63,10 +63,13 @@
             body {
                 overflow-x: hidden;
             }
+            .bio-text {
+                font-size: 18px;
+            }
             .bio-header,
             .bio-location,
             .bio-text {
-                text-align: center;
+                text-align: left;
             }
             .bio-header {
                 margin-top: 1em;
