@@ -1,5 +1,10 @@
         /* Move down content because we have a fixed navbar that is 3.5rem tall */
         
+        html,
+        body {
+            overflow-x: hidden;
+        }
+        
         .nav {
             text-align: center;
         }
@@ -44,14 +49,32 @@
         .bio-header,
         .bio-location,
         .bio-text {
-            position: relative;
+            width: 100%;
             top: 100px;
-            margin-left: 200px;
             text-align: left;
         }
         
         .bio-text {
             font-size: 22px;
+        }
+        
+        @media screen and (max-width: 900px) {
+            html,
+            body {
+                overflow-x: hidden;
+            }
+            .bio-header,
+            .bio-location,
+            .bio-text {
+                text-align: center;
+            }
+            .bio-header {
+                margin-top: 1em;
+                font-size: 22px;
+            }
+            .bio-location {
+                font-size: 20px;
+            }
         }
         
         @media (min-width: 2560px) {
